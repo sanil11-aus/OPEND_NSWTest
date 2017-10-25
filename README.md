@@ -1,2 +1,2 @@
 # OPEND_NSWBirthRate
-This file contains birth rates from different NSW suburbs. 
+This OPEND subproject deals with NSW birth rates from different NSW suburbs. 
