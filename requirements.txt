@@ -6,3 +6,4 @@ Jinja2==2.9.6
 MarkupSafe==1.0
 Werkzeug==0.12.2
 WTForms==2.1
+gunicorn==19.3.0
