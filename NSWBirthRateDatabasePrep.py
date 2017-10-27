@@ -1,7 +1,7 @@
 #########################################################################################################
 #   Program Name : NSWBirthRateDatabasePrep.py                                                          #
 #   Program Description:                                                                                #
-#   This program prepares a SQLite table concerning birth rates in NSW.                                 #
+#   This program prepares a SQLite table containing data about birth rates in NSW.                      #
 #                                                                                                       #
 #   Comment                                         Date                  Author                        #
 #   ================================                ==========            ================              #
@@ -11,7 +11,7 @@ import sqlite3
 import sys
 
 #######################################################################
-### nswbabies table                                                 ### 
+### Create NSW_BIRTH_RATE Table                                     ### 
 #######################################################################
 conn = sqlite3.connect('NSW_BIRTH_RATE.sqlite')
 cur = conn.cursor()
@@ -30,13 +30,13 @@ CREATE TABLE NSW_BIRTH_RATE (
 
 ''')
 
-fname1 = 'NSWBirthRate.txt'
-fhand1 = open(fname1)
+fname = 'NSWBirthRate.txt'
+fhand = open(fname)
 
 #######################################################################
-### Populate Old Table                                              ### 
+### Populate NSW_BIRTH_RATE Table                                   ### 
 #######################################################################
-for line in fhand1:	
+for line in fhand:	
 	fields = line.split('|')
 
 	YEAR      = fields[0].strip() 
