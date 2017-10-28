@@ -6,6 +6,7 @@
 #   Comment                                         Date                  Author                        #
 #   ================================                ==========            ================              #
 #   Initial Version                                 25/10/2017            Engramar Bollas               #
+#   Prepared a blog                                 28/10/2017            Engramar Bollas               #
 #########################################################################################################
 import sqlite3
 import sys
