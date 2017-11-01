@@ -1,4 +1,3 @@
-Year|Locality|Suburb|State|Postcode|Count
 2014|Albion Park NSW 2527|Albion Park|NSW|2527|193
 2013|Albion Park NSW 2527|Albion Park|NSW|2527|191
 2012|Albion Park NSW 2527|Albion Park|NSW|2527|215
