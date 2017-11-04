@@ -24,7 +24,7 @@ def get_details():
 
     return jsonify({'details' : return_values})
 
-@app.route('/detail/<string:SUBURB>', methods=['GET'])
+@app.route('/details/<string:SUBURB>', methods=['GET'])
 def get_detail(SUBURB):
     db = get_db()
     details_cur = db.execute('select YEAR, LOCALITY, SUBURB, STATE, POSTCODE, COUNT from NSW_BIRTH_RATE where SUBURB = ?', [SUBURB])
