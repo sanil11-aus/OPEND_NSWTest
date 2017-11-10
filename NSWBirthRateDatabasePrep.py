@@ -6,9 +6,9 @@
 #   Comment                                         Date                  Author                        #
 #   ================================                ==========            ================              #
 #   Initial Version                                 25/10/2017            Engramar Bollas               #
-#   Prepared a blog                                 28/10/2017            Engramar Bollas   			#
-#   testing new branch commit						30/10/2017			  Gerald Mills		            #
-#   testing new branch commit                       09/11/2017            about.me/kashif.islam
+#   Prepared a blog                                 28/10/2017            Engramar Bollas   		#
+#   testing new branch commit 			    30/10/2017	          Gerald Mills  	        #
+#   testing new branch commit                       09/11/2017            about.me/kashif.islam         #
 #########################################################################################################
 import sqlite3
 import sys
